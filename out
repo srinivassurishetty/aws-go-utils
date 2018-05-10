@@ -1,0 +1,3680 @@
+{
+
+}
+{
+
+}
+{
+
+}
+{
+
+}
+{
+
+}
+{
+
+}
+{
+
+}
+{
+
+}
+{
+
+}
+{
+
+}
+{
+  SecurityGroups: [{
+      Description: "Avi SE SG auto-created at 2018-03-18 21:58:37 by Controller=10.10.56.151",
+      GroupId: "sg-0020e426da1e56d8d",
+      GroupName: "avi-se-82d1fa40-2af7-11e8-aa29-005056806af5",
+      IpPermissions: [
+        {
+          FromPort: 50002,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50002
+        },
+        {
+          FromPort: 17,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 17
+        },
+        {
+          FromPort: 19,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 19
+        },
+        {
+          FromPort: 50009,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50009
+        },
+        {
+          FromPort: 13,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 13
+        },
+        {
+          FromPort: 11,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 11
+        },
+        {
+          FromPort: 9,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 9
+        },
+        {
+          FromPort: 15,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 15
+        },
+        {
+          FromPort: 50000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50000
+        },
+        {
+          FromPort: 50004,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50004
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        },
+        {
+          FromPort: 2,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 2
+        },
+        {
+          FromPort: 27,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 27
+        },
+        {
+          FromPort: 1,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1
+        },
+        {
+          FromPort: 29,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 29
+        },
+        {
+          FromPort: 21,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 21
+        },
+        {
+          FromPort: 4,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 4
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 23,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 23
+        },
+        {
+          FromPort: 3,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3
+        },
+        {
+          FromPort: 6,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 6
+        },
+        {
+          FromPort: 5,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5
+        },
+        {
+          FromPort: 8,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8
+        },
+        {
+          FromPort: 50007,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50007
+        },
+        {
+          FromPort: 7,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 7
+        },
+        {
+          FromPort: 16,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 16
+        },
+        {
+          FromPort: 18,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 18
+        },
+        {
+          FromPort: 12,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 12
+        },
+        {
+          FromPort: 14,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 14
+        },
+        {
+          FromPort: 10,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10
+        },
+        {
+          FromPort: 50008,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50008
+        },
+        {
+          FromPort: 50001,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50001
+        },
+        {
+          IpProtocol: "73",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50005,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50005
+        },
+        {
+          FromPort: 50006,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50006
+        },
+        {
+          FromPort: 26,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 26
+        },
+        {
+          FromPort: 28,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 28
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 24,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 24
+        },
+        {
+          IpProtocol: "97",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          IpProtocol: "63",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50003,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50003
+        }
+      ],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "139284885014",
+      Tags: [
+        {
+          Key: "INFO",
+          Value: "Dynamically created by Avi, do not remove. SE: i-0bd0fb801a659fe12 Cluster: [u'10.10.56.151']"
+        },
+        {
+          Key: "Name",
+          Value: "avi-se-i-0bd0fb801a659fe12"
+        },
+        {
+          Key: "AVICLOUD_UUID",
+          Value: "cloud-011e0b20-ebd1-4c5b-b746-474c3367aa8b"
+        },
+        {
+          Key: "AVICLUSTER_UUID",
+          Value: "cluster-5e577fbf-ab14-4e5c-b871-af6bb81a8463"
+        }
+      ],
+      VpcId: "vpc-19295f7c"
+    }]
+}
+{
+  SecurityGroups: [{
+      Description: "Avi SE SG auto-created at 2018-03-18 21:58:37 by Controller=10.10.56.151",
+      GroupId: "sg-0020e426da1e56d8d",
+      GroupName: "avi-se-82d1fa40-2af7-11e8-aa29-005056806af5",
+      IpPermissions: [
+        {
+          FromPort: 50002,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50002
+        },
+        {
+          FromPort: 17,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 17
+        },
+        {
+          FromPort: 19,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 19
+        },
+        {
+          FromPort: 50009,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50009
+        },
+        {
+          FromPort: 13,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 13
+        },
+        {
+          FromPort: 11,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 11
+        },
+        {
+          FromPort: 9,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 9
+        },
+        {
+          FromPort: 15,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 15
+        },
+        {
+          FromPort: 50000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50000
+        },
+        {
+          FromPort: 50004,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50004
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        },
+        {
+          FromPort: 2,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 2
+        },
+        {
+          FromPort: 27,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 27
+        },
+        {
+          FromPort: 1,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1
+        },
+        {
+          FromPort: 29,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 29
+        },
+        {
+          FromPort: 21,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 21
+        },
+        {
+          FromPort: 4,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 4
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 23,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 23
+        },
+        {
+          FromPort: 3,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3
+        },
+        {
+          FromPort: 6,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 6
+        },
+        {
+          FromPort: 5,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5
+        },
+        {
+          FromPort: 8,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8
+        },
+        {
+          FromPort: 50007,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50007
+        },
+        {
+          FromPort: 7,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 7
+        },
+        {
+          FromPort: 16,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 16
+        },
+        {
+          FromPort: 18,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 18
+        },
+        {
+          FromPort: 12,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 12
+        },
+        {
+          FromPort: 14,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 14
+        },
+        {
+          FromPort: 10,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10
+        },
+        {
+          FromPort: 50008,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50008
+        },
+        {
+          FromPort: 50001,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50001
+        },
+        {
+          IpProtocol: "73",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50005,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50005
+        },
+        {
+          FromPort: 50006,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50006
+        },
+        {
+          FromPort: 26,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 26
+        },
+        {
+          FromPort: 28,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 28
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 24,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 24
+        },
+        {
+          IpProtocol: "97",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          IpProtocol: "63",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50003,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50003
+        }
+      ],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "139284885014",
+      Tags: [
+        {
+          Key: "INFO",
+          Value: "Dynamically created by Avi, do not remove. SE: i-0bd0fb801a659fe12 Cluster: [u'10.10.56.151']"
+        },
+        {
+          Key: "Name",
+          Value: "avi-se-i-0bd0fb801a659fe12"
+        },
+        {
+          Key: "AVICLOUD_UUID",
+          Value: "cloud-011e0b20-ebd1-4c5b-b746-474c3367aa8b"
+        },
+        {
+          Key: "AVICLUSTER_UUID",
+          Value: "cluster-5e577fbf-ab14-4e5c-b871-af6bb81a8463"
+        }
+      ],
+      VpcId: "vpc-19295f7c"
+    }]
+}
+{
+  SecurityGroups: [{
+      Description: "Avi SE SG auto-created at 2018-03-18 21:58:37 by Controller=10.10.56.151",
+      GroupId: "sg-0020e426da1e56d8d",
+      GroupName: "avi-se-82d1fa40-2af7-11e8-aa29-005056806af5",
+      IpPermissions: [
+        {
+          FromPort: 50002,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50002
+        },
+        {
+          FromPort: 17,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 17
+        },
+        {
+          FromPort: 19,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 19
+        },
+        {
+          FromPort: 50009,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50009
+        },
+        {
+          FromPort: 13,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 13
+        },
+        {
+          FromPort: 11,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 11
+        },
+        {
+          FromPort: 9,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 9
+        },
+        {
+          FromPort: 15,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 15
+        },
+        {
+          FromPort: 50000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50000
+        },
+        {
+          FromPort: 50004,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50004
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        },
+        {
+          FromPort: 2,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 2
+        },
+        {
+          FromPort: 27,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 27
+        },
+        {
+          FromPort: 1,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1
+        },
+        {
+          FromPort: 29,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 29
+        },
+        {
+          FromPort: 21,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 21
+        },
+        {
+          FromPort: 4,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 4
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 23,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 23
+        },
+        {
+          FromPort: 3,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3
+        },
+        {
+          FromPort: 6,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 6
+        },
+        {
+          FromPort: 5,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5
+        },
+        {
+          FromPort: 8,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8
+        },
+        {
+          FromPort: 50007,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50007
+        },
+        {
+          FromPort: 7,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 7
+        },
+        {
+          FromPort: 16,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 16
+        },
+        {
+          FromPort: 18,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 18
+        },
+        {
+          FromPort: 12,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 12
+        },
+        {
+          FromPort: 14,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 14
+        },
+        {
+          FromPort: 10,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10
+        },
+        {
+          FromPort: 50008,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50008
+        },
+        {
+          FromPort: 50001,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50001
+        },
+        {
+          IpProtocol: "73",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50005,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50005
+        },
+        {
+          FromPort: 50006,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50006
+        },
+        {
+          FromPort: 26,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 26
+        },
+        {
+          FromPort: 28,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 28
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 24,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 24
+        },
+        {
+          IpProtocol: "97",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          IpProtocol: "63",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50003,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50003
+        }
+      ],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "139284885014",
+      Tags: [
+        {
+          Key: "INFO",
+          Value: "Dynamically created by Avi, do not remove. SE: i-0bd0fb801a659fe12 Cluster: [u'10.10.56.151']"
+        },
+        {
+          Key: "Name",
+          Value: "avi-se-i-0bd0fb801a659fe12"
+        },
+        {
+          Key: "AVICLOUD_UUID",
+          Value: "cloud-011e0b20-ebd1-4c5b-b746-474c3367aa8b"
+        },
+        {
+          Key: "AVICLUSTER_UUID",
+          Value: "cluster-5e577fbf-ab14-4e5c-b871-af6bb81a8463"
+        }
+      ],
+      VpcId: "vpc-19295f7c"
+    }]
+}
+{
+  SecurityGroups: [{
+      Description: "Avi SE SG auto-created at 2018-03-18 21:58:37 by Controller=10.10.56.151",
+      GroupId: "sg-0020e426da1e56d8d",
+      GroupName: "avi-se-82d1fa40-2af7-11e8-aa29-005056806af5",
+      IpPermissions: [
+        {
+          FromPort: 50002,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50002
+        },
+        {
+          FromPort: 17,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 17
+        },
+        {
+          FromPort: 19,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 19
+        },
+        {
+          FromPort: 50009,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50009
+        },
+        {
+          FromPort: 13,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 13
+        },
+        {
+          FromPort: 11,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 11
+        },
+        {
+          FromPort: 9,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 9
+        },
+        {
+          FromPort: 15,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 15
+        },
+        {
+          FromPort: 50000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50000
+        },
+        {
+          FromPort: 50004,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50004
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        },
+        {
+          FromPort: 2,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 2
+        },
+        {
+          FromPort: 27,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 27
+        },
+        {
+          FromPort: 1,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1
+        },
+        {
+          FromPort: 29,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 29
+        },
+        {
+          FromPort: 21,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 21
+        },
+        {
+          FromPort: 4,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 4
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 23,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 23
+        },
+        {
+          FromPort: 3,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3
+        },
+        {
+          FromPort: 6,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 6
+        },
+        {
+          FromPort: 5,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5
+        },
+        {
+          FromPort: 8,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8
+        },
+        {
+          FromPort: 50007,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50007
+        },
+        {
+          FromPort: 7,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 7
+        },
+        {
+          FromPort: 16,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 16
+        },
+        {
+          FromPort: 18,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 18
+        },
+        {
+          FromPort: 12,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 12
+        },
+        {
+          FromPort: 14,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 14
+        },
+        {
+          FromPort: 10,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10
+        },
+        {
+          FromPort: 50008,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50008
+        },
+        {
+          FromPort: 50001,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50001
+        },
+        {
+          IpProtocol: "73",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50005,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50005
+        },
+        {
+          FromPort: 50006,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50006
+        },
+        {
+          FromPort: 26,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 26
+        },
+        {
+          FromPort: 28,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 28
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 24,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 24
+        },
+        {
+          IpProtocol: "97",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          IpProtocol: "63",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50003,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50003
+        }
+      ],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "139284885014",
+      Tags: [
+        {
+          Key: "INFO",
+          Value: "Dynamically created by Avi, do not remove. SE: i-0bd0fb801a659fe12 Cluster: [u'10.10.56.151']"
+        },
+        {
+          Key: "Name",
+          Value: "avi-se-i-0bd0fb801a659fe12"
+        },
+        {
+          Key: "AVICLOUD_UUID",
+          Value: "cloud-011e0b20-ebd1-4c5b-b746-474c3367aa8b"
+        },
+        {
+          Key: "AVICLUSTER_UUID",
+          Value: "cluster-5e577fbf-ab14-4e5c-b871-af6bb81a8463"
+        }
+      ],
+      VpcId: "vpc-19295f7c"
+    }]
+}
+{
+  SecurityGroups: [{
+      Description: "Avi SE SG auto-created at 2018-03-18 21:58:37 by Controller=10.10.56.151",
+      GroupId: "sg-0020e426da1e56d8d",
+      GroupName: "avi-se-82d1fa40-2af7-11e8-aa29-005056806af5",
+      IpPermissions: [
+        {
+          FromPort: 50002,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50002
+        },
+        {
+          FromPort: 17,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 17
+        },
+        {
+          FromPort: 19,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 19
+        },
+        {
+          FromPort: 50009,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50009
+        },
+        {
+          FromPort: 13,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 13
+        },
+        {
+          FromPort: 11,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 11
+        },
+        {
+          FromPort: 9,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 9
+        },
+        {
+          FromPort: 15,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 15
+        },
+        {
+          FromPort: 50000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50000
+        },
+        {
+          FromPort: 50004,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50004
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        },
+        {
+          FromPort: 2,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 2
+        },
+        {
+          FromPort: 27,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 27
+        },
+        {
+          FromPort: 1,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1
+        },
+        {
+          FromPort: 29,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 29
+        },
+        {
+          FromPort: 21,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 21
+        },
+        {
+          FromPort: 4,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 4
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 23,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 23
+        },
+        {
+          FromPort: 3,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3
+        },
+        {
+          FromPort: 6,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 6
+        },
+        {
+          FromPort: 5,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5
+        },
+        {
+          FromPort: 8,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8
+        },
+        {
+          FromPort: 50007,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50007
+        },
+        {
+          FromPort: 7,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 7
+        },
+        {
+          FromPort: 16,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 16
+        },
+        {
+          FromPort: 18,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 18
+        },
+        {
+          FromPort: 12,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 12
+        },
+        {
+          FromPort: 14,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 14
+        },
+        {
+          FromPort: 10,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10
+        },
+        {
+          FromPort: 50008,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50008
+        },
+        {
+          FromPort: 50001,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50001
+        },
+        {
+          IpProtocol: "73",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50005,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50005
+        },
+        {
+          FromPort: 50006,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50006
+        },
+        {
+          FromPort: 26,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 26
+        },
+        {
+          FromPort: 28,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 28
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 24,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 24
+        },
+        {
+          IpProtocol: "97",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          IpProtocol: "63",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50003,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50003
+        }
+      ],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "139284885014",
+      Tags: [
+        {
+          Key: "INFO",
+          Value: "Dynamically created by Avi, do not remove. SE: i-0bd0fb801a659fe12 Cluster: [u'10.10.56.151']"
+        },
+        {
+          Key: "Name",
+          Value: "avi-se-i-0bd0fb801a659fe12"
+        },
+        {
+          Key: "AVICLOUD_UUID",
+          Value: "cloud-011e0b20-ebd1-4c5b-b746-474c3367aa8b"
+        },
+        {
+          Key: "AVICLUSTER_UUID",
+          Value: "cluster-5e577fbf-ab14-4e5c-b871-af6bb81a8463"
+        }
+      ],
+      VpcId: "vpc-19295f7c"
+    }]
+}
+{
+  SecurityGroups: [{
+      Description: "Avi SE SG auto-created at 2018-03-18 21:58:37 by Controller=10.10.56.151",
+      GroupId: "sg-0020e426da1e56d8d",
+      GroupName: "avi-se-82d1fa40-2af7-11e8-aa29-005056806af5",
+      IpPermissions: [
+        {
+          FromPort: 50002,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50002
+        },
+        {
+          FromPort: 17,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 17
+        },
+        {
+          FromPort: 19,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 19
+        },
+        {
+          FromPort: 50009,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50009
+        },
+        {
+          FromPort: 13,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 13
+        },
+        {
+          FromPort: 11,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 11
+        },
+        {
+          FromPort: 9,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 9
+        },
+        {
+          FromPort: 15,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 15
+        },
+        {
+          FromPort: 50000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50000
+        },
+        {
+          FromPort: 50004,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50004
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        },
+        {
+          FromPort: 2,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 2
+        },
+        {
+          FromPort: 27,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 27
+        },
+        {
+          FromPort: 1,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1
+        },
+        {
+          FromPort: 29,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 29
+        },
+        {
+          FromPort: 21,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 21
+        },
+        {
+          FromPort: 4,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 4
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 23,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 23
+        },
+        {
+          FromPort: 3,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3
+        },
+        {
+          FromPort: 6,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 6
+        },
+        {
+          FromPort: 5,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5
+        },
+        {
+          FromPort: 8,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8
+        },
+        {
+          FromPort: 50007,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50007
+        },
+        {
+          FromPort: 7,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 7
+        },
+        {
+          FromPort: 16,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 16
+        },
+        {
+          FromPort: 18,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 18
+        },
+        {
+          FromPort: 12,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 12
+        },
+        {
+          FromPort: 14,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 14
+        },
+        {
+          FromPort: 10,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10
+        },
+        {
+          FromPort: 50008,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50008
+        },
+        {
+          FromPort: 50001,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50001
+        },
+        {
+          IpProtocol: "73",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50005,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50005
+        },
+        {
+          FromPort: 50006,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50006
+        },
+        {
+          FromPort: 26,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 26
+        },
+        {
+          FromPort: 28,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 28
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 24,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 24
+        },
+        {
+          IpProtocol: "97",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          IpProtocol: "63",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50003,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50003
+        }
+      ],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "139284885014",
+      Tags: [
+        {
+          Key: "INFO",
+          Value: "Dynamically created by Avi, do not remove. SE: i-0bd0fb801a659fe12 Cluster: [u'10.10.56.151']"
+        },
+        {
+          Key: "Name",
+          Value: "avi-se-i-0bd0fb801a659fe12"
+        },
+        {
+          Key: "AVICLOUD_UUID",
+          Value: "cloud-011e0b20-ebd1-4c5b-b746-474c3367aa8b"
+        },
+        {
+          Key: "AVICLUSTER_UUID",
+          Value: "cluster-5e577fbf-ab14-4e5c-b871-af6bb81a8463"
+        }
+      ],
+      VpcId: "vpc-19295f7c"
+    }]
+}
+{
+  SecurityGroups: [{
+      Description: "Avi SE SG auto-created at 2018-03-18 21:58:37 by Controller=10.10.56.151",
+      GroupId: "sg-0020e426da1e56d8d",
+      GroupName: "avi-se-82d1fa40-2af7-11e8-aa29-005056806af5",
+      IpPermissions: [
+        {
+          FromPort: 50002,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50002
+        },
+        {
+          FromPort: 17,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 17
+        },
+        {
+          FromPort: 19,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 19
+        },
+        {
+          FromPort: 50009,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50009
+        },
+        {
+          FromPort: 13,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 13
+        },
+        {
+          FromPort: 11,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 11
+        },
+        {
+          FromPort: 9,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 9
+        },
+        {
+          FromPort: 15,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 15
+        },
+        {
+          FromPort: 50000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50000
+        },
+        {
+          FromPort: 50004,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50004
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        },
+        {
+          FromPort: 2,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 2
+        },
+        {
+          FromPort: 27,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 27
+        },
+        {
+          FromPort: 1,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1
+        },
+        {
+          FromPort: 29,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 29
+        },
+        {
+          FromPort: 21,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 21
+        },
+        {
+          FromPort: 4,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 4
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 23,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 23
+        },
+        {
+          FromPort: 3,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3
+        },
+        {
+          FromPort: 6,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 6
+        },
+        {
+          FromPort: 5,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5
+        },
+        {
+          FromPort: 8,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8
+        },
+        {
+          FromPort: 50007,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50007
+        },
+        {
+          FromPort: 7,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 7
+        },
+        {
+          FromPort: 16,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 16
+        },
+        {
+          FromPort: 18,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 18
+        },
+        {
+          FromPort: 12,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 12
+        },
+        {
+          FromPort: 14,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 14
+        },
+        {
+          FromPort: 10,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10
+        },
+        {
+          FromPort: 50008,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50008
+        },
+        {
+          FromPort: 50001,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50001
+        },
+        {
+          IpProtocol: "73",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50005,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50005
+        },
+        {
+          FromPort: 50006,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50006
+        },
+        {
+          FromPort: 26,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 26
+        },
+        {
+          FromPort: 28,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 28
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 24,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 24
+        },
+        {
+          IpProtocol: "97",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          IpProtocol: "63",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50003,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50003
+        }
+      ],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "139284885014",
+      Tags: [
+        {
+          Key: "INFO",
+          Value: "Dynamically created by Avi, do not remove. SE: i-0bd0fb801a659fe12 Cluster: [u'10.10.56.151']"
+        },
+        {
+          Key: "Name",
+          Value: "avi-se-i-0bd0fb801a659fe12"
+        },
+        {
+          Key: "AVICLOUD_UUID",
+          Value: "cloud-011e0b20-ebd1-4c5b-b746-474c3367aa8b"
+        },
+        {
+          Key: "AVICLUSTER_UUID",
+          Value: "cluster-5e577fbf-ab14-4e5c-b871-af6bb81a8463"
+        }
+      ],
+      VpcId: "vpc-19295f7c"
+    }]
+}
+{
+  SecurityGroups: [{
+      Description: "Avi SE SG auto-created at 2018-03-18 21:58:37 by Controller=10.10.56.151",
+      GroupId: "sg-0020e426da1e56d8d",
+      GroupName: "avi-se-82d1fa40-2af7-11e8-aa29-005056806af5",
+      IpPermissions: [
+        {
+          FromPort: 50002,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50002
+        },
+        {
+          FromPort: 17,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 17
+        },
+        {
+          FromPort: 19,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 19
+        },
+        {
+          FromPort: 50009,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50009
+        },
+        {
+          FromPort: 13,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 13
+        },
+        {
+          FromPort: 11,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 11
+        },
+        {
+          FromPort: 9,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 9
+        },
+        {
+          FromPort: 15,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 15
+        },
+        {
+          FromPort: 50000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50000
+        },
+        {
+          FromPort: 50004,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50004
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        },
+        {
+          FromPort: 2,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 2
+        },
+        {
+          FromPort: 27,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 27
+        },
+        {
+          FromPort: 1,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1
+        },
+        {
+          FromPort: 29,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 29
+        },
+        {
+          FromPort: 21,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 21
+        },
+        {
+          FromPort: 4,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 4
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 23,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 23
+        },
+        {
+          FromPort: 3,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3
+        },
+        {
+          FromPort: 6,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 6
+        },
+        {
+          FromPort: 5,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5
+        },
+        {
+          FromPort: 8,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8
+        },
+        {
+          FromPort: 50007,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50007
+        },
+        {
+          FromPort: 7,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 7
+        },
+        {
+          FromPort: 16,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 16
+        },
+        {
+          FromPort: 18,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 18
+        },
+        {
+          FromPort: 12,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 12
+        },
+        {
+          FromPort: 14,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 14
+        },
+        {
+          FromPort: 10,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10
+        },
+        {
+          FromPort: 50008,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50008
+        },
+        {
+          FromPort: 50001,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50001
+        },
+        {
+          IpProtocol: "73",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50005,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50005
+        },
+        {
+          FromPort: 50006,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50006
+        },
+        {
+          FromPort: 26,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 26
+        },
+        {
+          FromPort: 28,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 28
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 24,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 24
+        },
+        {
+          IpProtocol: "97",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          IpProtocol: "63",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50003,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50003
+        }
+      ],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "139284885014",
+      Tags: [
+        {
+          Key: "INFO",
+          Value: "Dynamically created by Avi, do not remove. SE: i-0bd0fb801a659fe12 Cluster: [u'10.10.56.151']"
+        },
+        {
+          Key: "Name",
+          Value: "avi-se-i-0bd0fb801a659fe12"
+        },
+        {
+          Key: "AVICLOUD_UUID",
+          Value: "cloud-011e0b20-ebd1-4c5b-b746-474c3367aa8b"
+        },
+        {
+          Key: "AVICLUSTER_UUID",
+          Value: "cluster-5e577fbf-ab14-4e5c-b871-af6bb81a8463"
+        }
+      ],
+      VpcId: "vpc-19295f7c"
+    }]
+}
+{
+  SecurityGroups: [{
+      Description: "Avi SE SG auto-created at 2018-03-18 21:58:37 by Controller=10.10.56.151",
+      GroupId: "sg-0020e426da1e56d8d",
+      GroupName: "avi-se-82d1fa40-2af7-11e8-aa29-005056806af5",
+      IpPermissions: [
+        {
+          FromPort: 50002,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50002
+        },
+        {
+          FromPort: 17,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 17
+        },
+        {
+          FromPort: 19,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 19
+        },
+        {
+          FromPort: 50009,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50009
+        },
+        {
+          FromPort: 13,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 13
+        },
+        {
+          FromPort: 11,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 11
+        },
+        {
+          FromPort: 9,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 9
+        },
+        {
+          FromPort: 15,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 15
+        },
+        {
+          FromPort: 50000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50000
+        },
+        {
+          FromPort: 50004,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50004
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        },
+        {
+          FromPort: 2,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 2
+        },
+        {
+          FromPort: 27,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 27
+        },
+        {
+          FromPort: 1,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1
+        },
+        {
+          FromPort: 29,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 29
+        },
+        {
+          FromPort: 21,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 21
+        },
+        {
+          FromPort: 4,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 4
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 23,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 23
+        },
+        {
+          FromPort: 3,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3
+        },
+        {
+          FromPort: 6,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 6
+        },
+        {
+          FromPort: 5,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5
+        },
+        {
+          FromPort: 8,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8
+        },
+        {
+          FromPort: 50007,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50007
+        },
+        {
+          FromPort: 7,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 7
+        },
+        {
+          FromPort: 16,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 16
+        },
+        {
+          FromPort: 18,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 18
+        },
+        {
+          FromPort: 12,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 12
+        },
+        {
+          FromPort: 14,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 14
+        },
+        {
+          FromPort: 10,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10
+        },
+        {
+          FromPort: 50008,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50008
+        },
+        {
+          FromPort: 50001,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50001
+        },
+        {
+          IpProtocol: "73",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50005,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50005
+        },
+        {
+          FromPort: 50006,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50006
+        },
+        {
+          FromPort: 26,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 26
+        },
+        {
+          FromPort: 28,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 28
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 24,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 24
+        },
+        {
+          IpProtocol: "97",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          IpProtocol: "63",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50003,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50003
+        }
+      ],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "139284885014",
+      Tags: [
+        {
+          Key: "INFO",
+          Value: "Dynamically created by Avi, do not remove. SE: i-0bd0fb801a659fe12 Cluster: [u'10.10.56.151']"
+        },
+        {
+          Key: "Name",
+          Value: "avi-se-i-0bd0fb801a659fe12"
+        },
+        {
+          Key: "AVICLOUD_UUID",
+          Value: "cloud-011e0b20-ebd1-4c5b-b746-474c3367aa8b"
+        },
+        {
+          Key: "AVICLUSTER_UUID",
+          Value: "cluster-5e577fbf-ab14-4e5c-b871-af6bb81a8463"
+        }
+      ],
+      VpcId: "vpc-19295f7c"
+    }]
+}
+{
+  SecurityGroups: [{
+      Description: "Avi SE SG auto-created at 2018-03-18 21:58:37 by Controller=10.10.56.151",
+      GroupId: "sg-0020e426da1e56d8d",
+      GroupName: "avi-se-82d1fa40-2af7-11e8-aa29-005056806af5",
+      IpPermissions: [
+        {
+          FromPort: 50002,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50002
+        },
+        {
+          FromPort: 17,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 17
+        },
+        {
+          FromPort: 19,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 19
+        },
+        {
+          FromPort: 50009,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50009
+        },
+        {
+          FromPort: 13,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 13
+        },
+        {
+          FromPort: 11,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 11
+        },
+        {
+          FromPort: 9,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 9
+        },
+        {
+          FromPort: 15,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 15
+        },
+        {
+          FromPort: 50000,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50000
+        },
+        {
+          FromPort: 50004,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50004
+        },
+        {
+          FromPort: -1,
+          IpProtocol: "icmp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: -1
+        },
+        {
+          FromPort: 2,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 2
+        },
+        {
+          FromPort: 27,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 27
+        },
+        {
+          FromPort: 1,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 1
+        },
+        {
+          FromPort: 29,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 29
+        },
+        {
+          FromPort: 21,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 21
+        },
+        {
+          FromPort: 4,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 4
+        },
+        {
+          FromPort: 25,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 25
+        },
+        {
+          FromPort: 23,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 23
+        },
+        {
+          FromPort: 3,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 3
+        },
+        {
+          FromPort: 6,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 6
+        },
+        {
+          FromPort: 5,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 5
+        },
+        {
+          FromPort: 8,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 8
+        },
+        {
+          FromPort: 50007,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50007
+        },
+        {
+          FromPort: 7,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 7
+        },
+        {
+          FromPort: 16,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 16
+        },
+        {
+          FromPort: 18,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 18
+        },
+        {
+          FromPort: 12,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 12
+        },
+        {
+          FromPort: 14,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 14
+        },
+        {
+          FromPort: 10,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 10
+        },
+        {
+          FromPort: 50008,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50008
+        },
+        {
+          FromPort: 50001,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50001
+        },
+        {
+          IpProtocol: "73",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50005,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50005
+        },
+        {
+          FromPort: 50006,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50006
+        },
+        {
+          FromPort: 26,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 26
+        },
+        {
+          FromPort: 28,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 28
+        },
+        {
+          FromPort: 22,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 22
+        },
+        {
+          FromPort: 24,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 24
+        },
+        {
+          IpProtocol: "97",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          IpProtocol: "63",
+          IpRanges: [{
+              CidrIp: "10.144.0.0/16"
+            }]
+        },
+        {
+          FromPort: 50003,
+          IpProtocol: "tcp",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }],
+          ToPort: 50003
+        }
+      ],
+      IpPermissionsEgress: [{
+          IpProtocol: "-1",
+          IpRanges: [{
+              CidrIp: "0.0.0.0/0"
+            }]
+        }],
+      OwnerId: "139284885014",
+      Tags: [
+        {
+          Key: "INFO",
+          Value: "Dynamically created by Avi, do not remove. SE: i-0bd0fb801a659fe12 Cluster: [u'10.10.56.151']"
+        },
+        {
+          Key: "Name",
+          Value: "avi-se-i-0bd0fb801a659fe12"
+        },
+        {
+          Key: "AVICLOUD_UUID",
+          Value: "cloud-011e0b20-ebd1-4c5b-b746-474c3367aa8b"
+        },
+        {
+          Key: "AVICLUSTER_UUID",
+          Value: "cluster-5e577fbf-ab14-4e5c-b871-af6bb81a8463"
+        }
+      ],
+      VpcId: "vpc-19295f7c"
+    }]
+}
